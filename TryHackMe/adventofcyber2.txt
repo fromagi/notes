@@ -1,14 +1,10 @@
-+-------------------+
-|	DAY 1: COOKIES	|
-+-------------------+
+DAY 1: COOKIES
 
 	ADDITIONAL ROOMS:
 		https://tryhackme.com/room/webfundamentals
 	
 
-+---------------------------+
-|	DAY 2: URLs (GET VULNs)	|
-+---------------------------+
+DAY 2: URLs (GET VULNs)
 
 	TOOLS:
 		https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php
@@ -26,9 +22,7 @@
 		https://tryhackme.com/room/introtoshells
 	
 
-+-------------------+
-|	DAY 3: BURPS	|
-+-------------------+
+DAY 3: BURPS
 
 	Burp Proxy >> Intruder to brute force credentials from list
 
@@ -44,11 +38,9 @@
 		https://hackerone.com/reports/195163
 		https://hackerone.com/reports/804548
 		https://www.bleepingcomputer.com/news/security/15-percent-of-all-iot-device-owners-dont-change-default-passwords/
-		
-
-+---------------+
-|	DAY 4: FUZZ	|
-+---------------+	
+	
+	
+DAY 4: FUZZ	
 	
 	TOOLS:
 		https://github.com/OJ/gobuster 
@@ -94,9 +86,8 @@
 		https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/big.txt
 		
 
-+---------------+
-|   DAY 5: SQLi	|
-+---------------+
+
+DAY 5: SQLi
 
 	TOOLS:
 		git clone --depth 1 <https://github.com/sqlmapproject/sqlmap.git> sqlmap-dev
@@ -129,9 +120,7 @@
 			^^^
 	
 
-+---------------+
-|	DAY 6: XSS	|
-+---------------+
+DAY 6: XSS
 
 	Types of XSS attacks:
 		Stored: content that persistently exists on the website and can be viewed by victims
@@ -149,25 +138,3 @@
 		https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Input_Validation_Cheat_Sheet.md
 		https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XSS%20Injection
 		https://github.com/payloadbox/xss-payload-list
-
-	custom (stored?)	6
-	javascript 			10
-	execution			9
-
-
-
-
-
-
-MISC NOTES
-
-$6$  == sha512crypt
-
-https://medium.com/@anunayb007/introduction-to-hashing-and-how-to-retrieve-windows-10-password-hashes-9c8637decaef
-	
-
-OTHER ROOMS:
-
-https://tryhackme.com/room/linux1
-
-https://tryhackme.com/room/googledorking
